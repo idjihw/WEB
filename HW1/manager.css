@@ -1,0 +1,16 @@
+h1{
+  color: DarkCyan;
+  font-size: 40px;
+  text-align: center;
+}
+
+#diiv{
+  background-color: lightblue;
+  margin: auto;
+  border-width: 5px;
+  border-style: solid;
+  border-color: Darkblue;
+  width: 400px;
+  padding: 10px;
+  line-height: 2em;
+}

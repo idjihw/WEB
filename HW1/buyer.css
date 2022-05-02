@@ -1,0 +1,20 @@
+table, td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead{
+    border: 1px solid;
+    color: white;
+    background-color: green;
+}
+
+#show_chosen{
+    padding: 10px 0px;
+}
+
+#id{
+  ime-mode: disabled;
+}

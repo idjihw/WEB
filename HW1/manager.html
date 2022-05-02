@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+  <title>Manager</title>
+  <meta charset = "utf-8">
+  <link rel = "stylesheet" type = "text/css" href = "./manager.css">
+</head>
+
+<body>
+
+  <h1>상품 정보 저장하기</h1>
+
+  <div id ="diiv">
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <table>
+        <tr>
+          <td>상품 이름</td>
+          <td> <input type ="text" id = "name" size = "30" name = "name"></td>
+        </tr>
+        <tr>
+          <td>가격</td>
+          <td><input type = "text" id = "price" size = "10" name = "price"></td>
+        </tr>
+        <tr>
+          <td>수량</td>
+          <td><input type = "text" id = "amount" size = "5" name = "amount"></td>
+        </tr>
+        <tr>
+          <td>미리보기 파일</td>
+          <td><input type = "file" name="fileToUpload" id="file"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type ="submit" value="저장하기" name="submit"></td>
+        </tr>
+      </table>
+  </form>
+  </div>
+</body>
+</html>
