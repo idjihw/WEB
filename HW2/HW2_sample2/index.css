@@ -1,0 +1,62 @@
+
+.rowAlign{
+  display:flex;
+  flex-direction: row;
+  vertical-align: top;
+}
+
+.colAlign{
+  display:inline-block;
+  vertical-align: top;
+  flex-grow: 1;
+}
+
+.rightAlign{
+  text-align: right;
+}
+
+.bottomMargin100{
+  margin-bottom: 100px;
+}
+
+.popup{
+  background-color:skyblue;
+  display: none;
+  padding:40px;
+  border-radius: 3px;
+  position:absolute;
+  box-shadow: 3px 3px 3px 1px black;
+}
+#divSign, #divAdd{
+  top : 5px;
+}
+#divAdd{
+  left : 50px;
+}
+#divSign{
+  right: 120px;
+}
+#divTable{
+  width:100%;
+}
+#divModify{
+  top:25%;
+  left:45%;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-top:3px solid black;
+  border-bottom: 3px solid black;
+}
+
+th{
+   text-transform: capitalize;
+}
+td{
+  padding:15px;
+}
+td,th{
+  border: 1px solid black;
+}

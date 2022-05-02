@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="HW2.css">
+    <meta charset="utf-8">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <title>HW2</title>
+  </head>
+  <body>
+    <br>
+    <input type="button" id="Add" value="Add">
+    <div id="right">
+      <div id="AddBox">
+        <table>
+          <tr>
+            <td>day</td>
+            <td colspan="2">
+              <select name="day" id="day">
+                <option value="Sun">Sun</option>
+                <option value="Mon">Mon</option>
+                <option value="Tue">Tue</option>
+                <option value="Wed">Wed</option>
+                <option value="Thu">Thu</option>
+                <option value="Fri">Fri</option>
+                <option value="Sat">Sat</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>title</td>
+            <td colspan="2"><input type="text" name="title" id="title"></td>
+          </tr>
+          <tr>
+            <td>description</td>
+            <td colspan="2"><input type="text" name="description" id="description"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="button" id="Save" value="Save" ></td>
+            <td><input type="button" id="Cancel" value="Cancel" ></td>
+          </tr>
+        </table>
+      </div>
+      <div id="titleBox">
+        <span id="hiddenid"></span>
+        <span id="hiddenday"></span>
+        <table>
+          <tr>
+            <td>day</td>
+            <td colspan="3">
+              <select name="Tday" id="Tday">
+                <option value="Sun">Sun</option>
+                <option value="Mon">Mon</option>
+                <option value="Tue">Tue</option>
+                <option value="Wed">Wed</option>
+                <option value="Thu">Thu</option>
+                <option value="Fri">Fri</option>
+                <option value="Sat">Sat</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>title</td>
+            <td colspan="3"><input type="text" name="title" id="Ttitle"></td>
+          </tr>
+          <tr>
+            <td>description</td>
+            <td colspan="3"><input type="text" name="description" id="Tdescription"></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="Edit" value="Edit" ></td>
+            <td><input type="button" id="Delete" value="Delete" ></td>
+            <td><input type="button" id="Submit" value="Submit" ></td>
+            <td><input type="button" id="TCancel" value="Cancel" ></td>
+          </tr>
+        </table>
+      </div>
+      <div id="LoginBox">
+        <table>
+          <tr>
+            <td>id</td>
+            <td colspan="2"><input type="text" name="id" id="id"></td>
+          </tr>
+          <tr>
+            <td>password</td>
+            <td colspan="2"><input type="text" name="pw" id="pw"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="button" id="logIn" value="logIn" ></td>
+            <td><input type="button" id="SignIn" value="SignIn" ></td>
+          </tr>
+        </table>
+      </div>
+    <span id="loginID"></span>
+    <input type="button" id="Join" value="Join">
+    <input type="button" id="Logout" value="Logout">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table id="table1">
+    </table>
+    <script src="HW2.js"></script>
+  </body>
+  </html>

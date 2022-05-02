@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>HW02</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="rowAlign bottomMargin100">
+      <div class="colAlign">
+        <button type="button" id="btnAdd">Add</button>
+      </div>
+      <div class="colAlign rightAlign">
+        <span id="spanSignID"></span>
+        <button type="button" id="btnJoin">Join</button>
+        <button type="button" id="btnLogout">Logout</button>
+      </div>
+    </div>
+    <div id="divTable"></div>
+    <div class="popup" id="divAdd">
+        <div class="rowAlign">
+          <div class="colAlign">
+            <label for="dropDayAdd">day</label><br>
+            <label for="textTitleAdd">title</label><br>
+            <label for="textDescriptionAdd">description</label>
+          </div>
+          <div class="colAlign">
+            <select id="dropDayAdd">
+              <option value="sun">Sun</option>
+              <option value="mon">Mon</option>
+              <option value="tue">Tue</option>
+              <option value="wed">Wed</option>
+              <option value="thu">Thu</option>
+              <option value="fri">Fri</option>
+              <option value="sat">Sat</option>
+            </select><br>
+            <input type="text" id="textTitleAdd"><br>
+            <input type="text" id="textDescriptionAdd">
+          </div>
+        </div>
+        <div>
+          <button type="button" id="btnSaveAdd">Save</button>
+          <button type="button" id="btnCancelAdd">Cancel</button>
+        </div>
+    </div>
+    <div class="popup" id="divSign">
+        <div class="rowAlign">
+          <div class="colAlign">
+            <label for="signId">id</label><br>
+            <label for="signPassword">password</label>
+          </div>
+          <div class="colAlign">
+            <input type="text" id="signId"><br>
+            <input type="password" id="signPassword">
+          </div>
+        </div>
+        <div>
+          <button type="button" id="btnSignUp">SignUp</button>
+          <button type="button" id="btnSignIn">SignIn</button>
+        </div>
+    </div>
+    <div class="popup" id="divModify">
+        <div class="rowAlign">
+          <div class="colAlign">
+            <label for="dropDayModify">day</label><br>
+            <label for="textTitleModify">title</label><br>
+            <label for="textDescriptionModify">description</label>
+          </div>
+          <div class="colAlign">
+            <select id="dropDayModify">
+              <option value="sun">Sun</option>
+              <option value="mon">Mon</option>
+              <option value="tue">Tue</option>
+              <option value="wed">Wed</option>
+              <option value="thu">Thu</option>
+              <option value="fri">Fri</option>
+              <option value="sat">Sat</option>
+            </select><br>
+            <input type="text" id="textTitleModify"><br>
+            <input type="text" id="textDescriptionModify">
+          </div>
+        </div>
+        <div>
+          <button type="button" id="btnModify">Edit</button>
+          <button type="button" id="btnDelete">Delete</button>
+          <button type="button" id="btnSaveModify">Save</button>
+          <button type="button" id="btnCancelModify">Cancel</button>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
